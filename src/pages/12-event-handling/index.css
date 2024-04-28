@@ -1,0 +1,8 @@
+.title {
+  font-size: 20px;
+}
+
+.title-focused {
+  font-size: 24px;
+  color: red;
+}

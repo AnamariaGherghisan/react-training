@@ -1,0 +1,41 @@
+.user-card {
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.16);
+  padding: 8px;
+  border-radius: 8px;
+  width: 18rem;
+  margin: 16px;
+}
+
+.user-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.premium-icon {
+  color: #febb02;
+}
+
+.font-display-1 {
+  color: #262626;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.font-display-2 {
+  color: #262626;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 8px;
+}
+
+.font-display-3 {
+  color: #6b6b6b;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}

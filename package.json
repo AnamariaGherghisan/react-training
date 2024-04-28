@@ -1,0 +1,67 @@
+{
+  "name": "react-training",
+  "version": "1.0.0",
+  "description": "Resources containing concepts and challenges for the frontend React track.",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "test:01": "react-scripts test --verbose --watch src/pages/01-component/challenge/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.booking.com:tbu/booking-academy/react-training.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Suraj Verma",
+    "email": "suraj.verma@booking.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.18",
+    "@mui/material": "^5.14.18",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.2",
+    "react": "^18.2.0",
+    "react-code-blocks": "^0.1.6",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.1",
+    "react-router-dom": "^6.19.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@types/react": "^18.2.78"
+  },
+  "contributors": [
+    {
+      "name": "Suraj Verma",
+      "email": "suraj.verma@booking.com"
+    }
+  ],
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
