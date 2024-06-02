@@ -27,11 +27,27 @@ export const navLinks = [
   },
   {
     path: "github-directory/challenge",
-    label: "GitHub Directory Challenge",
+    label: "GitHub Challenge",
   },
   {
     path: "portfolio/challenge",
     label: "Portfolio Challenge",
+  },
+  {
+    path: "class-based-component/concept",
+    label: "Class-based Component",
+  },
+  {
+    path: "state-and-lifecycle/concept",
+    label: "State and Lifecycle",
+  },
+  {
+    path: "class-based-counter/challenge",
+    label: "Counter Challenge",
+  },
+  {
+    path: "useState/concept",
+    label: "UseState Hook",
   },
   {
     path: "event-handling/concept",
@@ -40,6 +56,30 @@ export const navLinks = [
   {
     path: "form-submission/concept",
     label: "Form Submission",
+  },
+  {
+    path: "mui/concept",
+    label: "Material UI",
+  },
+  {
+    path: "take-home-salary/challenge",
+    label: "Take Home Salary Challenge",
+  },
+  {
+    path: "random-password-generator/challenge",
+    label: "Random Password Challenge",
+  },
+  {
+    path: "useEffect/concept",
+    label: "UseEffect Hook",
+  },
+  {
+    path: "github-explorer/challenge",
+    label: "GitHub Explorer Challenge",
+  },
+  {
+    path: "weather-app/challenge",
+    label: "Weather App Challenge",
   },
 ];
 
@@ -63,13 +103,14 @@ export const NavBar = () => {
       />
 
       <Stack>
-        {navLinks.map(({ path, label }) => (
+        {navLinks.map(({ path, label }, index) => (
           <Button
-            sx={{ color: "white" }}
+            sx={{ color: "white", justifyContent: "start" }}
             onClick={() => navigate(path)}
             key={label}
           >
-            {label}
+            {index + 1 < 10 ? "0" : ""}
+            {index + 1} - {label}
           </Button>
         ))}
       </Stack>
