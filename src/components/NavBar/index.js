@@ -81,6 +81,22 @@ export const navLinks = [
     path: "weather-app/challenge",
     label: "Weather App Challenge",
   },
+  {
+    path: "useContext/concept",
+    label: "UseContext Hook",
+  },
+  {
+    path: "useReducer/concept",
+    label: "UseReducer Hook",
+  },
+  {
+    path: "simple-basket/challenge",
+    label: "Simple Basket Challenge",
+  },
+  {
+    path: "e-commerce/challenge",
+    label: "E-Commerce Challenge",
+  },
 ];
 
 export const NavBar = () => {

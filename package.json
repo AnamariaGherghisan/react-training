@@ -20,9 +20,16 @@
     "test:11": "react-scripts test --verbose --watch src/pages/11-useState-hook/challenge/",
     "test:12": "react-scripts test --verbose --watch src/pages/12-event-handling/challenge/",
     "test:13": "react-scripts test --verbose --watch src/pages/13-form-submission/challenge/",
-    "test:14": "react-scripts test --verbose --watch src/pages/14-take-home-salary-challenge/challenge/",
-    "test:15": "react-scripts test --verbose --watch src/pages/15-random-password-generator-challenge/challenge/",
-    "test:16": "react-scripts test --verbose --watch src/pages/16-useEffect-hook/challenge/"
+    "test:14": "react-scripts test --verbose --watch src/pages/14-mui/challenge/",
+    "test:15": "react-scripts test --verbose --watch src/pages/15-take-home-salary-challenge/challenge/",
+    "test:16": "react-scripts test --verbose --watch src/pages/16-random-password-generator-challenge/challenge/",
+    "test:17": "react-scripts test --verbose --watch src/pages/17-useEffect-hook/challenge/",
+    "test:18": "react-scripts test --verbose --watch src/pages/18-github-explorer-challenge/challenge/",
+    "test:19": "react-scripts test --verbose --watch src/pages/19-weather-app-challenge/challenge/",
+    "test:20": "react-scripts test --verbose --watch src/pages/20-useContext-hook/challenge/",
+    "test:21": "react-scripts test --verbose --watch src/pages/21-useReducer-hook/challenge/",
+    "test:22": "react-scripts test --verbose --watch src/pages/22-simple-basket-challenge/challenge/",
+    "test:23": "react-scripts test --verbose --watch src/pages/23-e-commerce-challenge/challenge/"
   },
   "repository": {
     "type": "git",
@@ -77,6 +84,11 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "\"node_modules/(?!axios)/\""
     ]
   }
 }

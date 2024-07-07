@@ -71,6 +71,20 @@ import { GithubExplorerChallenge } from "./pages/18-github-explorer-challenge/Gi
 import { GithubExplorerPlayground } from "./pages/18-github-explorer-challenge/GithubExplorerPlayground";
 import { WeatherAppChallenge } from "./pages/19-weather-app-challenge/WeatherAppChallenge";
 import { WeatherAppPlayground } from "./pages/19-weather-app-challenge/WeatherAppPlayground";
+import { UseContextConcept } from "./pages/20-useContext-hook/UseContextConcept";
+import { UseContextExample } from "./pages/20-useContext-hook/UseContextExample";
+import { UseContextChallenge } from "./pages/20-useContext-hook/UseContextChallenge";
+import { UseContextPlayground } from "./pages/20-useContext-hook/UseContextPlayground";
+import { UseContextSolution } from "./pages/20-useContext-hook/UseContextSolution";
+import { UseReducerConcept } from "./pages/21-useReducer-hook/UseReducerConcept";
+import { UseReducerExample } from "./pages/21-useReducer-hook/UseReducerExample";
+import { UseReducerChallenge } from "./pages/21-useReducer-hook/UseReducerChallenge";
+import { UseReducerPlayground } from "./pages/21-useReducer-hook/UseReducerPlayground";
+import { UseReducerSolution } from "./pages/21-useReducer-hook/UseReducerSolution";
+import { SimpleBasketChallenge } from "./pages/22-simple-basket-challenge/SimpleBasketChallenge";
+import { SimpleBasketPlayground } from "./pages/22-simple-basket-challenge/SimpleBasketPlayground";
+import { ECommerceChallenge } from "./pages/23-e-commerce-challenge/ECommerceChallenge";
+import { ECommercePlayground } from "./pages/23-e-commerce-challenge/ECommercePlayground";
 
 export const AppRoutes = () => {
   const conceptRoutes = [
@@ -360,6 +374,58 @@ export const AppRoutes = () => {
         },
       ],
     },
+    {
+      path: "useContext",
+      title: "UseContext Hook",
+      routes: [
+        {
+          route: "concept",
+          component: UseContextConcept,
+        },
+        {
+          route: "example",
+          component: UseContextExample,
+        },
+        {
+          route: "challenge",
+          component: UseContextChallenge,
+        },
+        {
+          route: "playground",
+          component: UseContextPlayground,
+        },
+        {
+          route: "solution",
+          component: UseContextSolution,
+        },
+      ],
+    },
+    {
+      path: "useReducer",
+      title: "UseReducer Hook",
+      routes: [
+        {
+          route: "concept",
+          component: UseReducerConcept,
+        },
+        {
+          route: "example",
+          component: UseReducerExample,
+        },
+        {
+          route: "challenge",
+          component: UseReducerChallenge,
+        },
+        {
+          route: "playground",
+          component: UseReducerPlayground,
+        },
+        {
+          route: "solution",
+          component: UseReducerSolution,
+        },
+      ],
+    },
   ];
 
   const challengeRoutes = [
@@ -472,6 +538,34 @@ export const AppRoutes = () => {
         {
           route: "playground",
           component: WeatherAppPlayground,
+        },
+      ],
+    },
+    {
+      path: "simple-basket",
+      title: "Simple Basket Challenge",
+      routes: [
+        {
+          route: "challenge",
+          component: SimpleBasketChallenge,
+        },
+        {
+          route: "playground",
+          component: SimpleBasketPlayground,
+        },
+      ],
+    },
+    {
+      path: "e-commerce",
+      title: "E-Commerce Challenge",
+      routes: [
+        {
+          route: "challenge",
+          component: ECommerceChallenge,
+        },
+        {
+          route: "playground",
+          component: ECommercePlayground,
         },
       ],
     },
