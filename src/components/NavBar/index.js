@@ -110,7 +110,7 @@ export const NavBar = () => {
         textAlign="center"
         sx={{ color: "white" }}
       >
-        Booking Academy
+        React JS
       </Typography>
 
       <Divider

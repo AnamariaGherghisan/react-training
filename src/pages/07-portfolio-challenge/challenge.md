@@ -14,7 +14,7 @@ I want to present my professional react portfolio to potential employers in the 
 
 ## Wireframe
 
-**Use your imagination** when building your solution. You can use the following to help guide you how to structure your app [here](https://paste.booking.com/data/images/7/7py18l.png).
+**Use your imagination** when building your solution. You can use the following to help guide you how to structure your app
 
 ## Getting Started
 

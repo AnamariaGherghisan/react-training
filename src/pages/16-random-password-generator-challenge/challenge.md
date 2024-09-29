@@ -22,8 +22,4 @@ As a user I want to generate a new password.
 
 ### Initial load
 
-[See wireframe here](https://paste.booking.com/data/images/8/889kby.png)
-
 ### When password has been generated
-
-[See wireframe here](https://paste.booking.com/data/images/7/7i4n3n.png)

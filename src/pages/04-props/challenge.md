@@ -11,4 +11,4 @@ As a React component I should be prop-driven to encourage component reusability.
 
 ## Wireframe design
 
-[See wireframe here](https://paste.booking.com/data/images/1/1piqv9.png)
+TODO

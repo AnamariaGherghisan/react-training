@@ -6,7 +6,7 @@ const users = [
     id: "111",
     firstName: "Bob",
     lastName: "Smith",
-    companyName: "Booking.com",
+    companyName: "Google",
     address: {
       houseNumber: "111",
       street: "4th street",

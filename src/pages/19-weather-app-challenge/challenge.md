@@ -55,8 +55,4 @@ For example, if the code is `04d`, then then the URL will be:
 
 ### Initial load
 
-![initial state](https://paste.booking.com/data/images/7/7jom4i.png)
-
 ### When clicking on the daily forecast button
-
-![initial state](https://paste.booking.com/data/images/0/04p1x5.png)

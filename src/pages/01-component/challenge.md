@@ -11,4 +11,4 @@ As a React app I should be able to render a Card component as per the wireframe.
 
 ## Wireframe design
 
-[See wireframe here](https://paste.booking.com/s3image.php?image=data/images/5/5yuh2h.png)
+TODO

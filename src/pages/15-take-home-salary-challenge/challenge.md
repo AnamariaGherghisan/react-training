@@ -53,12 +53,6 @@ As a user I should be able to determine my take home salary after income tax ded
 
 ### Initial Load
 
-[See wireframe here](https://paste.booking.com/data/images/8/84sea0.png)
-
 ### Valid Submission
 
-[See wireframe here](https://paste.booking.com/data/images/3/3cnlg5.png)
-
 ### Error
-
-[See wireframe here](https://paste.booking.com/data/images/5/5c0mhm.png)

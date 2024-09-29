@@ -9,7 +9,7 @@ export const ClassBasedComponentSolution = ({ title, pathPrefix }) => (
       <UserCard
         firstName="Bob"
         lastName="Smith"
-        companyName="Booking.com"
+        companyName="Google"
         address={{
           houseNumber: "123",
           street: "4th street",

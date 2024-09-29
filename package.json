@@ -33,12 +33,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.booking.com:tbu/booking-academy/react-training.git"
+    "url": "git@github.com:surajverma2587/react-training.git"
   },
   "keywords": [],
   "author": {
     "name": "Suraj Verma",
-    "email": "suraj.verma@booking.com"
+    "email": "surajverma2587@gmail.com"
   },
   "license": "ISC",
   "dependencies": {
@@ -65,7 +65,7 @@
   "contributors": [
     {
       "name": "Suraj Verma",
-      "email": "suraj.verma@booking.com"
+      "email": "surajverma2587@gmail.com"
     }
   ],
   "eslintConfig": {

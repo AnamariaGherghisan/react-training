@@ -12,9 +12,7 @@ const ApiExample = () => {
       try {
         setLoading(true);
 
-        const response = await axios.get(
-          "https://api.github.com/users/bookingcom"
-        );
+        const response = await axios.get("https://api.github.com/users/meta");
 
         if (response.status !== 200) {
           setError(true);
@@ -66,7 +64,7 @@ export const UseEffectExample = ({ title, pathPrefix }) => (
         setLoading(true);
 
         const response = await axios.get(
-          "https://api.github.com/users/bookingcom"
+          "https://api.github.com/users/meta"
         );
 
         if (response.status !== 200) {

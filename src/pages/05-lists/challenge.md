@@ -15,5 +15,3 @@ As a React app I should be able to render a list of users with all their informa
   - if user is a premium user then render a premium user icon [here](https://fontawesome.com/icons/crown?f=classic&s=solid)
 
 ## Wireframe design
-
-[See wireframe here](https://paste.booking.com/data/images/8/8k29x0.png)

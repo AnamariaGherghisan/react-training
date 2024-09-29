@@ -9,7 +9,7 @@ describe("UserCard", () => {
           id: "111",
           firstName: "Bob",
           lastName: "Smith",
-          companyName: "Booking.com",
+          companyName: "Google",
           address: {
             houseNumber: "123",
             street: "4th street",
@@ -31,7 +31,7 @@ describe("UserCard", () => {
           id: "111",
           firstName: "Bob",
           lastName: "Smith",
-          companyName: "Booking.com",
+          companyName: "Google",
           address: {
             houseNumber: "123",
             street: "4th street",
@@ -53,7 +53,7 @@ describe("UserCard", () => {
           id: "111",
           firstName: "Bob",
           lastName: "Smith",
-          companyName: "Booking.com",
+          companyName: "Google",
           address: {
             houseNumber: "123",
             street: "4th street",
@@ -65,7 +65,7 @@ describe("UserCard", () => {
       />
     );
 
-    expect(screen.getByTestId("company-name")).toHaveTextContent("Booking.com");
+    expect(screen.getByTestId("company-name")).toHaveTextContent("Google");
   });
 
   it("should render the expected full address with street address", () => {
@@ -75,7 +75,7 @@ describe("UserCard", () => {
           id: "111",
           firstName: "Bob",
           lastName: "Smith",
-          companyName: "Booking.com",
+          companyName: "Google",
           address: {
             houseNumber: "123",
             street: "4th street",
@@ -99,7 +99,7 @@ describe("UserCard", () => {
           id: "111",
           firstName: "Bob",
           lastName: "Smith",
-          companyName: "Booking.com",
+          companyName: "Google",
           address: {
             houseNumber: "123",
             city: "London",
@@ -122,7 +122,7 @@ describe("UserCard", () => {
           id: "111",
           firstName: "Bob",
           lastName: "Smith",
-          companyName: "Booking.com",
+          companyName: "Google",
           address: {
             houseNumber: "123",
             city: "London",
@@ -143,7 +143,7 @@ describe("UserCard", () => {
           id: "111",
           firstName: "Bob",
           lastName: "Smith",
-          companyName: "Booking.com",
+          companyName: "Google",
           address: {
             houseNumber: "123",
             city: "London",
