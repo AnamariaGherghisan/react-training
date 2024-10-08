@@ -60,23 +60,19 @@ class Jumbotron extends Component {
             This banner element is rendered using React and CSS.
           </div>
 
-          <div className="p-3">
-            <button
-              className={`btn btn-${this.state.mode}`}
-              onClick={this.handleButtonClick}
-            >
-              Toggle Button
-            </button>
-          </div>
+          <button
+            className={`btn btn-${this.state.mode}`}
+            onClick={this.handleButtonClick}
+          >
+            Toggle Button
+          </button>
 
-          <div className="p-3">
-            <button
-              className={"btn btn-danger"}
-              onClick={this.props.handleUnmount}
-            >
-              Umount Jumbotron
-            </button>
-          </div>
+          <button
+            className={"btn btn-danger"}
+            onClick={this.props.handleUnmount}
+          >
+            Umount Jumbotron
+          </button>
         </div>
       );
     }
