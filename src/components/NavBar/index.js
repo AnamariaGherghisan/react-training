@@ -118,15 +118,15 @@ export const NavBar = () => {
         variant="middle"
       />
 
-      <Stack>
+      <Stack sx={{ px: 1 }}>
         {navLinks.map(({ path, label }, index) => (
           <Button
             sx={{ color: "white", justifyContent: "start" }}
             onClick={() => navigate(path)}
             key={label}
+            disableRipple
           >
-            {index + 1 < 10 ? "0" : ""}
-            {index + 1} - {label}
+            {index + 1 < 10 ? `0${index + 1}` : index + 1} - {label}
           </Button>
         ))}
       </Stack>
