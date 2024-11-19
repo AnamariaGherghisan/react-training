@@ -6,9 +6,7 @@
 
 - Click on the fork button on the top right corner and you will be presented with a page to enter some details for the forked repo
 
-- Keep the same _Project name_ and _Project slug_ and for the _Project URL_ you need to enter your _GitLab username_ as a namespace
-
-- Select the _Visibility level_ as Internal
+- Select the _Owner_ as yourself and keep the same _Repository name_ and
 
 - Click on the _Fork project_ button to fork the repository
 
