@@ -1,0 +1,24 @@
+.hello-world-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.img-item {
+  flex: 1;
+}
+
+.content-item {
+  flex: 4;
+}
+
+.image {
+  object-fit: contain;
+  width: 100%;
+}
+
+@media screen and (width <= 596px) {
+  .hello-world-container {
+    flex-direction: column;
+  }
+}
