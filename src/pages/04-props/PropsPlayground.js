@@ -11,10 +11,10 @@ export const PropsPlayground = ({ title, pathPrefix }) => (
         lastName="Smith"
         companyName="Apple"
         address={{
-          firstLine: "123",
-          secondLine: "4th street",
-          city: "Manchester",
-          postcode: "MAN 123",
+          houseNumber: "123",
+          street: "4th street",
+          city: "London",
+          postcode: "LON 123",
         }}
       />
     }
